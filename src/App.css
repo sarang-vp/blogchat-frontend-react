@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+/*chat style*/
+/* Chat Container */
+.chat-container {
+  display: flex;
+  height: 100%;
+}
+
+/* User List Section */
+.user-list {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.user-list h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.user-list li:hover {
+  background-color: #ddd;
+}
+
+/* Chat Thread Section */
+.chat-thread {
+  flex: 2;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.chat-thread h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.chat-messages {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.chat-messages li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Message Input Field and Send Button */
+.message-input {
+  width: calc(100% - 80px);
+  padding: 10px;
+  font-size: 16px;
+}
+
+.send-button {
+  width: 60px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+/*end*/
